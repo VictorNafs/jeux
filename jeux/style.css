@@ -1,0 +1,95 @@
+body {
+    background-color: #000;
+    color: #fff; /* Couleur du texte par défaut en blanc */
+    font-family: Arial, sans-serif; /* Police de caractères par défaut */
+  }
+  
+  .site-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  #game-album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .game {
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+  }
+  .game img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.game {
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 15px; /* Ajoutez cette ligne pour ajouter un espace en dessous de chaque jeu */
+  }
+  
+
+  #search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px; /* Ajoutez cette ligne pour les bordures arrondies */
+    margin-right: 15px; /* Ajoutez cette ligne pour l'espacement */
+  }
+  
+  #search-form button {
+    height: 50px;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px; /* Ajoutez cette ligne pour les bordures arrondies */
+  }
+  
+  
+  #search-form button:hover {
+    background-color: darkred;
+  }
+  
+  .platforms img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px; /* Ajoutez un espacement à droite de chaque icône */
+  }
+  
+  #show-more {
+    height: 50px;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px; /* Ajoutez cette ligne pour les bordures arrondies */
+    margin-top: 20px; /* Ajoutez cette ligne pour l'espacement */
+  }
+  
+  #show-more:hover {
+    background-color: darkred;
+  }
+  
+  /* Ajoutez ce sélecteur pour centrer le bouton "Show More" */
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
